@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fondoCambiar"
+    android:background="#932aa0"
+    android:layout_weight="1"
+    tools:context=".Emocion">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#932aa0"
+        app:popupTheme="@style/PopupOverlay" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="¿Cómo te sientes el día de hoy?"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".10"/>
+
+    <ImageView
+        android:id="@+id/imagenCambiar"
+        android:layout_width="124dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".20"
+        app:srcCompat="@drawable/felipenormal"
+        android:layout_marginVertical="30dp"/>
+
+    <Button
+        android:id="@+id/btnFeliz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:text="Feliz"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+    <Button
+        android:id="@+id/btnCalmado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:text="Calmado"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+    <Button
+        android:id="@+id/btnFrustrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:text="Frustrado"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+    <Button
+        android:id="@+id/btnTriste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:text="Triste"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+    <Button
+        android:id="@+id/btnEnojado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:text="Enojado"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+
+    <Button
+        android:id="@+id/btnContinuarEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botonamarillo"
+        android:text="Continuar"
+        android:textColor="#932aa0"
+        android:textSize="18sp"
+        android:layout_weight=".05"
+        android:layout_marginHorizontal="100dp"/>
+
+</LinearLayout>

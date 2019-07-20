@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">#932aa0</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppThemeMyLight" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#932aa0</item>
+        <item name="android:colorActivatedHighlight">#932aa0</item>
+        <item name="android:textColorPrimaryDisableOnly">#932aa0</item>
+    </style>
+</resources>

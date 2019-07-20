@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/perfil"
+        android:title="Perfil"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/seguimiento"
+        android:title="Seguimiento"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/salir"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never"/>
+</menu>

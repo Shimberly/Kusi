@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#f3d32a"
+    android:layout_weight="1"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".30"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bordes_redondos"
+        android:text="Inicia Sesión"
+        android:textColor="#932aa0"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight=".10"
+        android:layout_marginHorizontal="60dp"/>
+
+    <Button
+        android:id="@+id/btnRegistrate"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnborder"
+        android:text="Regístrate"
+        android:textColor="#932aa0"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight=".10"
+        android:layout_marginHorizontal="60dp"/>
+
+    <TextView
+        android:id="@+id/txtEspacio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="14"
+        android:layout_marginHorizontal="40dp"
+        android:layout_weight=".50"
+        android:paddingVertical="5dp"/>
+
+</LinearLayout>

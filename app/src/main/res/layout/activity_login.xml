@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#f3d32a"
+    android:layout_weight="1"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="124dp"
+        android:layout_height="97dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="85dp"
+        android:layout_weight=".35"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight=".10"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:gravity="center"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textColorLink="#000" />
+
+    <EditText
+        android:id="@+id/txtClave"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginVertical="15dp"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:hint="Clave"
+        android:layout_marginHorizontal="50dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textColorLink="#000"
+        android:layout_weight=".10"/>
+    <TextView
+        android:id="@+id/btnRegistrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="¿No tienes una cuenta? ¡Regístrate!"
+        android:textColor="#932aa0"
+        android:layout_weight=".5"
+        android:layout_marginVertical="10dp"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botonmorado"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".10"
+        android:layout_marginHorizontal="100dp"/>
+
+    <ImageView
+        android:id="@+id/imgPersonaje"
+        android:layout_width="143dp"
+        android:layout_height="227dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_weight=".30"
+        app:srcCompat="@drawable/felipefelicidad" />
+
+
+</LinearLayout>

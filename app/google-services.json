@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78495471766",
+    "firebase_url": "https://kusi-projectapp.firebaseio.com",
+    "project_id": "kusi-projectapp",
+    "storage_bucket": "kusi-projectapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78495471766:android:3ca248a6db6d372b",
+        "android_client_info": {
+          "package_name": "com.webbi.developer.kusi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78495471766-80c0qblscenj4qce35vaidjbd6e5s4oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrkc_4DZdMhL6mvCHfoVAXl3qVKg6B0wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78495471766-80c0qblscenj4qce35vaidjbd6e5s4oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

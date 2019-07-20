@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3d32a"
+    android:layout_weight="1"
+    tools:context=".Perfil">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#932aa0"
+        app:popupTheme="@style/PopupOverlay" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="124dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".40"
+        app:srcCompat="@drawable/felipenormal"
+        android:layout_marginVertical="30dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Nombre y apellido"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:hint="Usuario"
+        android:layout_marginHorizontal="60dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColor="#000"
+        android:enabled="false"
+        android:layout_weight=".10"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Usuario"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"/>
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:hint="Usuario"
+        android:layout_marginHorizontal="60dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColor="#000"
+        android:enabled="false"
+        android:layout_weight=".10"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Edad"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"/>
+
+    <EditText
+        android:id="@+id/txtNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:hint="Usuario"
+        android:layout_marginHorizontal="60dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColor="#000"
+        android:enabled="false"
+        android:layout_weight=".10"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Cuidador"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".05"/>
+
+    <EditText
+        android:id="@+id/txtCuidador"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/bordes_redondos"
+        android:ems="14"
+        android:hint="Usuario"
+        android:layout_marginHorizontal="60dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColor="#000"
+        android:enabled="false"
+        android:layout_weight=".10"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

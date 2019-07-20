@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3d32a"
+    android:layout_weight="1"
+    tools:context=".Inicio">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#932aa0"
+        app:popupTheme="@style/PopupOverlay" />
+
+    <Button
+        android:id="@+id/btnEmocion"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botonmorado"
+        android:text="Estado emocional"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_marginVertical="30dp"
+        android:layout_weight=".10"
+        android:layout_marginHorizontal="100dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="124dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".80"
+        app:srcCompat="@drawable/felipenormal"
+        android:layout_marginVertical="30dp"/>
+
+    <Button
+        android:id="@+id/btnEmergencia"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botonmorado"
+        android:text="Emergencia"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_marginVertical="30dp"
+        android:layout_weight=".10"
+        android:layout_marginHorizontal="100dp"/>
+
+</LinearLayout>

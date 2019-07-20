@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_weight="1"
+    tools:context=".Emergencia">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#932aa0"
+        app:popupTheme="@style/PopupOverlay" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="24/7"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_weight=".15"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Todos los días a todas horas"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".10"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="30dp"
+        android:layout_weight=".30"
+        app:srcCompat="@drawable/felipetelefono" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Si tienes alguna emergencia o quieres comunicarte directamente con un doctor puedes acceder aquí a la línea paliativa de SOLCA"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_weight=".15"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_weight=".30"
+        android:orientation="horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/imgTf"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize="0px"
+                android:background="@drawable/felipenormal"/>
+
+            <TextView
+                android:id="@+id/txtTf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="Llamada"
+                android:textColor="#932aa0"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/imgWa"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize="0px"
+                android:background="@drawable/felipenormal"/>
+
+            <TextView
+                android:id="@+id/txtWa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="Whatsappp"
+                android:textColor="#932aa0"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
